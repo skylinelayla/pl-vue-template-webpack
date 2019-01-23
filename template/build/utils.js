@@ -66,10 +66,12 @@ exports.cssLoaders = function (options) {
         postcss: generateLoaders(),
         less: generateLoaders('less').concat({
             loader: 'sass-resource-loader',
-            options: [
-                path.resolve(__dirname, '../node_modules/@baidu/lego-events-zhishu/src/assets/css/variables.less'),
-                path.resolve(__dirname, '../node_modules/@baidu/lego-events-zhishu/src/assets/css/themeLight.less')
-            ]
+            options: {
+                resources: [
+                    path.resolve(__dirname, '../node_modules/@baidu/lego-events-zhishu/src/assets/css/variables.less'),
+                    path.resolve(__dirname, '../node_modules/@baidu/lego-events-zhishu/src/assets/css/themeLight.less')
+                ]  
+            }
         }),
         sass: generateLoaders('sass', {
             indentedSyntax: true

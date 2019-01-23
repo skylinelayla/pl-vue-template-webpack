@@ -29,8 +29,11 @@ module.exports = {
         alias: {
             {{#if_eq build "standalone"}}
             'vue$': 'vue/dist/vue.esm.js',
+            '@': resolve('src'),
+            '@zhishu': resolve('node_modules/@baidu/lego-events-zhishu/src/components'),
+            '#': resolve('node_modules/@baidu/lego-events-base')
             {{/if_eq}}
-            '@': resolve('src')
+           
         }
     },
     module: {
