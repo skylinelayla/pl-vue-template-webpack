@@ -14,8 +14,8 @@
     "zepto": "^1.2.0",
     "vue": "^2.5.2"{{#router}},
     "vue-router": "^3.0.1"{{/router}},
-    "@baidu/lego-events-base": "^0.2.22",
-    "@baidu/lego-events-zhishu": "^0.2.22",
+    "@baidu/lego-events-base": "latest",
+    "@baidu/lego-events-zhishu": "latest",
     "date-fns": "^1.29.0",
     "lodash": "^4.17.11"
   },
