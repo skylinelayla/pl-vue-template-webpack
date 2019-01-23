@@ -14,10 +14,15 @@ module.exports = {
       "required": true,
       "message": "Project name"
     },
+    "title": {
+      "type": "string",
+      "required": true,
+      "message": "Page Title"
+    },
     "statistic": {
       "type": "string",
       "required": false,
-      "message": "statistic code"
+      "message": "Statistic code"
     },
     "description": {
       "type": "string",
