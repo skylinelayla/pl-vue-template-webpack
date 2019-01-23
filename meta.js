@@ -14,6 +14,11 @@ module.exports = {
       "required": true,
       "message": "Project name"
     },
+    "statistic": {
+      "type": "string",
+      "required": false,
+      "message": "statistic code"
+    },
     "description": {
       "type": "string",
       "required": false,

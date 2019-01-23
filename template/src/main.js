@@ -26,7 +26,7 @@ new Vue({
     {{/if_eq}}
     {{#if_eq build "standalone"}}
     template: '<App/>',
-    components: {App}
+    components: {App},
     {{/if_eq}}
     data() {
         return {
@@ -37,7 +37,7 @@ new Vue({
         const windowWidth = {};
         Object.defineProperty(windowWidth, 'innerWidth', {
             enumerable: true,
-            get: () => this.innerWidth;
+            get: () => this.innerWidth
         });
         return {windowWidth};
     },
