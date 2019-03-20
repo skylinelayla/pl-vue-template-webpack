@@ -65,7 +65,7 @@ exports.cssLoaders = function (options) {
         css: generateLoaders(),
         postcss: generateLoaders(),
         less: generateLoaders('less').concat({
-            loader: 'sass-resource-loader',
+            loader: 'sass-resources-loader',
             options: {
                 resources: [
                     path.resolve(__dirname, '../node_modules/@baidu/lego-events-zhishu/src/assets/css/variables.less'),
