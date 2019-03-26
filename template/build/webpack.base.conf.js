@@ -64,7 +64,9 @@ module.exports = {
                     resolve('node_modules/@baidu/lego-events-base'),
                     resolve('node_modules/@baidu/lego-events-zhishu'),
                     resolve('node_modules/@baidu/lego-events-box'),
-                    resolve('node_modules/@baidu/lego-events-map')
+                    resolve('node_modules/@baidu/lego-events-map'),
+                    resolve('node_modules/vue-echarts'),
+                    resolve('node_modules/resize-detector')
                 ]
             },
             {

@@ -69,7 +69,7 @@ exports.cssLoaders = function (options) {
             options: {
                 resources: [
                     path.resolve(__dirname, '../node_modules/@baidu/lego-events-zhishu/src/assets/css/variables.less'),
-                    path.resolve(__dirname, '../node_modules/@baidu/lego-events-zhishu/src/assets/css/themeLight.less')
+                    path.resolve(__dirname, '../node_modules/@baidu/lego-events-zhishu/src/assets/css/themeDark.less')
                 ]  
             }
         }),
