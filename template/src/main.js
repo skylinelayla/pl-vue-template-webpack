@@ -10,11 +10,14 @@ import {debounce} from 'lodash';
 import Vue from 'vue';
 import App from './App';
 import 'babel-polyfill';
+import 'ie-placeholder';
+import logPlugin from '@baidu/lego-events-zhishu/src/plugins/log';
 {{#router}}
 import router from './router';
 {{/router}}
 
 Vue.config.productionTip = false;
+Vue.use(logPlugin);
 
 /* eslint-disable no-new */
 new Vue({
