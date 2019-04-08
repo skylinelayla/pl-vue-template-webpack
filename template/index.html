@@ -19,5 +19,24 @@
     <body>
         <div id="app"></div>
         <!-- built files will be auto injected -->
+        <script type="text/javascript" src="{{shareUrl}}"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function (event) {
+                shareConfig.init(
+                    {
+                        title: {{title}},
+                        content: {{shareContent}},
+                        iconUrl: {{shareIcon}},
+                        bdbox: {
+                            source: {{shareBd}}
+                        },
+                        wx: {
+                            appId: {{shareWechatAppId}},
+                            jsApiList: []
+                        }
+                    }
+                );
+            });
+        </script>
     </body>
 </html>
