@@ -24,6 +24,41 @@ module.exports = {
       "required": false,
       "message": "Statistic code"
     },
+    "pathTheme": {
+      "type": "string",
+      "required": true,
+      "message": "Theme Choose"
+    },
+    "pageColor": {
+      "type": 'string',
+      "required": true,
+      "message": "Page Color"
+    },
+    "shareUrl": {
+      "type": "string",
+      "required": true,
+      "message": "Share Url"
+    },
+    "shareContent": {
+      "type": "string",
+      "required": true,
+      "message": "Share Content"
+    },
+    "shareIcon": {
+      "type": "string",
+      "required": true,
+      "message": "Share Icon"
+    },
+    "shareBd": {
+      "type": "string",
+      "required": true,
+      "message": "Share Bd"
+    },
+    "shareWechatAppId": {
+      "type": "string",
+      "required": true,
+      "message": "Share Wechat App id"
+    },
     "description": {
       "type": "string",
       "required": false,

@@ -25,7 +25,7 @@ export default {
 @import url('../node_modules/@baidu/lego-events-zhishu/src/assets/css/global.less');
 @import url('../node_modules/@baidu/lego-events-zhishu/src/assets/css/variables.less');
 html, body {
-    background: {{pageTheme}};
+    background: {{pageColor}};
     .zs-loading {
         margin-top: 60px;
     }
