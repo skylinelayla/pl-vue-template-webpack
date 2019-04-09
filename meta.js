@@ -26,37 +26,37 @@ module.exports = {
     },
     "pathTheme": {
       "type": "string",
-      "required": true,
+      "required": false,
       "message": "Theme Choose"
     },
     "pageColor": {
       "type": 'string',
-      "required": true,
+      "required": false,
       "message": "Page Color"
     },
     "shareUrl": {
       "type": "string",
-      "required": true,
+      "required": false,
       "message": "Share Url"
     },
     "shareContent": {
       "type": "string",
-      "required": true,
+      "required": false,
       "message": "Share Content"
     },
     "shareIcon": {
       "type": "string",
-      "required": true,
+      "required": false,
       "message": "Share Icon"
     },
     "shareBd": {
       "type": "string",
-      "required": true,
+      "required": false,
       "message": "Share Bd"
     },
     "shareWechatAppId": {
       "type": "string",
-      "required": true,
+      "required": false,
       "message": "Share Wechat App id"
     },
     "description": {
