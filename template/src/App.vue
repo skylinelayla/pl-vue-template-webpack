@@ -30,4 +30,7 @@ html, body {
         margin-top: 60px;
     }
 }
+html {
+    overflow-y: scroll;
+}
 </style>
